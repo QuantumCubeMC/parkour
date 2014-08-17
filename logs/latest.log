@@ -1,0 +1,90 @@
+[20:24:46] [Server thread/INFO]: Starting minecraft server version 1.7.9
+[20:24:46] [Server thread/INFO]: Loading properties
+[20:24:46] [Server thread/WARN]: server.properties does not exist
+[20:24:46] [Server thread/INFO]: Generating new properties file
+[20:24:46] [Server thread/INFO]: Default game type: SURVIVAL
+[20:24:46] [Server thread/INFO]: Generating keypair
+[20:24:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:24:46] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks (MC: 1.7.9) (Implementing API version 1.7.9-R0.2)
+[20:24:46] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_60]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_60]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.y(SourceFile:99) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:25) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[20:24:46] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_60]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_60]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.x(SourceFile:91) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:27) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[20:24:46] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_60]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_60]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.z(SourceFile:107) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:29) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[20:24:46] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_60]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_60]
+	at net.minecraft.util.com.google.common.io.Files.newReader(Files.java:86) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.JsonList.load(JsonList.java:147) ~[craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.B(SourceFile:123) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedPlayerList.<init>(SourceFile:30) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.DedicatedServer.init(DedicatedServer.java:126) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.MinecraftServer.run(MinecraftServer.java:436) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+	at net.minecraft.server.v1_7_R3.ThreadServerApplication.run(SourceFile:628) [craftbukkit-beta.jar:git-Bukkit-1.7.9-R0.1-10-g8688bd4-b3092jnks]
+[20:24:46] [Server thread/INFO]: Preparing level "world"
+[20:24:47] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5170462638249920802)
+[20:24:47] [Thread-6/INFO]: ----- Bukkit Auto Updater -----
+[20:24:47] [Thread-6/INFO]: It appears that you're running a Beta Build, when you've specified in bukkit.yml that you prefer to run Recommended Builds.
+[20:24:47] [Thread-6/INFO]: If you would like to be kept informed about new Beta Build releases, it is recommended that you change 'preferred-channel' in your bukkit.yml to 'beta'.
+[20:24:47] [Thread-6/INFO]: With that set, you will be told whenever a new version is available for download, so that you can always keep up to date and secure with the latest fixes.
+[20:24:47] [Thread-6/INFO]: If you would like to disable this warning, simply set 'suggest-channels' to false in bukkit.yml.
+[20:24:47] [Thread-6/INFO]: ----- ------------------- -----
+[20:24:48] [Server thread/INFO]: Preparing spawn area: 7%
+[20:24:49] [Server thread/INFO]: Preparing spawn area: 18%
+[20:24:50] [Server thread/INFO]: Preparing spawn area: 33%
+[20:24:51] [Server thread/INFO]: Preparing spawn area: 50%
+[20:24:52] [Server thread/INFO]: Preparing spawn area: 64%
+[20:24:53] [Server thread/INFO]: Preparing spawn area: 83%
+[20:24:54] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5170462638249920802)
+[20:24:55] [Server thread/INFO]: Preparing spawn area: 24%
+[20:24:56] [Server thread/INFO]: Preparing spawn area: 51%
+[20:24:57] [Server thread/INFO]: Preparing spawn area: 67%
+[20:24:58] [Server thread/INFO]: Preparing spawn area: 89%
+[20:25:03] [Server thread/INFO]: Preparing spawn area: 98%
+[20:25:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5170462638249920802)
+[20:25:05] [Server thread/INFO]: Preparing spawn area: 31%
+[20:25:06] [Server thread/INFO]: Preparing spawn area: 80%
+[20:25:06] [Server thread/INFO]: Done (19.664s)! For help, type "help" or "?"
+[20:25:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2408ms behind, skipping 48 tick(s)
+[20:25:53] [Server thread/INFO]: CONSOLE: Stopping the server..[m
+[20:25:53] [Server thread/INFO]: Stopping server
+[20:25:53] [Server thread/INFO]: Saving players
+[20:25:53] [Server thread/INFO]: Saving worlds
+[20:25:53] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:25:53] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[20:25:53] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[20:25:53] [Thread-4/INFO]: Stopping server
+[20:25:53] [Thread-4/INFO]: Saving players
+[20:25:53] [Thread-4/INFO]: Saving worlds
+[20:25:53] [Thread-4/INFO]: Saving chunks for level 'world'/Overworld
+[20:25:53] [Thread-4/INFO]: Saving chunks for level 'world_nether'/Nether
+[20:25:53] [Thread-4/INFO]: Saving chunks for level 'world_the_end'/The End
